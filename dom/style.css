@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#accordion .card-body{
+    display: none;
+}
+.card-header{
+    cursor: pointer;
+    background-color: greenyellow;
+}
+h5{
+    background-color: hotpink;
+}
+p{
+    background-color: orange;
+}
+body{
+    background-color: peru;
+}
+.container{
+    background-color: rebeccapurple;
+}
