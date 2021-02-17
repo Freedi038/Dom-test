@@ -1,24 +1,43 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-#accordion .card-body{
-    display: none;
+#accordion .card-body {
+  display: none;
 }
-.card-header{
-    cursor: pointer;
-    background-color: greenyellow;
+.card-header {
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-h5{
-    background-color: hotpink;
+h5 {
+  background-color: #fff;
 }
-p{
-    background-color: orange;
+p {
+  background-color: #fff;
 }
-body{
-    background-color: peru;
+body {
+  background-color: white;
 }
-.container{
-    background-color: rebeccapurple;
+.container {
+  background-color: #ddd;
+}
+.card-body {
+  background-color: #ddd;
+}
+body {
+  background-color: black;
+}
+.fas fa-plus {
+  background-color: aqua;
+}
+
+.minus {
+}
+
+.hidden {
+  display: none !important;
 }
